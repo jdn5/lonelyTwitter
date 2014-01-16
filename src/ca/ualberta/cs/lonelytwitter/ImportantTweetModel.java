@@ -23,4 +23,7 @@ public class ImportantTweetModel extends LonelyTweetModel{
 	public Date getTimestamp(){
 		return timestamp;
 	}
+	public boolean isimportant(){
+		return true;
+	}
 }

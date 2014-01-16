@@ -29,6 +29,8 @@ public abstract class LonelyTweetModel {
 
 	public abstract Date getTimestamp();
 	
+	public abstract boolean isimportant();
+	
 	public void setTimestamp(Date timestamp) {
 		this.timestamp = timestamp;
 	}
