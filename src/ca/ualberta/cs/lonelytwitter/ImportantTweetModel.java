@@ -19,4 +19,8 @@ public class ImportantTweetModel extends LonelyTweetModel{
 	public String getText(){
 		return "Important!" + super.getText();
 	}
+	
+	public Date getTimestamp(){
+		return timestamp;
+	}
 }
