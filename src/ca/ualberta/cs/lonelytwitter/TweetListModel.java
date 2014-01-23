@@ -11,14 +11,12 @@ public class TweetListModel{
 		tweetList = new ArrayList<AbstractTweetModel>();
 		// TODO Auto-generated constructor stub
 	}
-
-
+	
 	public ArrayList<AbstractTweetModel> getTweetList()
 	{
 	
 		return tweetList;
 	}
-
 	
 	public void setTweetList(ArrayList<AbstractTweetModel> tweetList)
 	{

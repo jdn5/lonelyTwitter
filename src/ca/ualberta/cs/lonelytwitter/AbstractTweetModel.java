@@ -12,7 +12,7 @@ public abstract class AbstractTweetModel {
 		this.text = text;
 		this.timestamp = timestamp;
 	}
-
+	
 	public AbstractTweetModel(String text) {
 		super();
 		this.text = text;
